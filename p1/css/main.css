@@ -7,21 +7,31 @@ selector {
 }
 
 ********/
-
+  @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 body {
-  background-color: black;
+  background-color: #857896;
+  font-family: 'Special Elite', cursive;
+  margin-top: 300px;
 }
 h1 {
-  color: white;
+  color: #442D4A;
+  font-size: 50px;
   text-align: center;
 }
 h2 {
-  color:white;
-text-align: center;
+  color: #442D4A;
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  color: #442D4A;
+  text-align: center;
+  font-size: 50px;
 }
 a {
-  color: tomato;
+  color: #2B1A2B;
 }
 a:hover {
-  color: dodgerblue;
+  color: white;
+  font-size: 75px;
 }
