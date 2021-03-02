@@ -1,10 +1,87 @@
 body {
-  background-color: #3AAFA9;
+  background-color: #344145;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 h1 {
-  color: #DEF2F1
+  color: #DEF2F1;
+  text-align: left;
+  padding-left: 3%;
+  font-size: 110px;
+  letter-spacing: 3px;
+  font-family: 'Fjalla One', sans-serif;
 }
-h2 {
-  color: #17252A
+span.of {
+  font-style: italic;
+  font-size: 45px;
+}
+span.typographic {
+  color: #17252A;
+}
+h3 {
+  color: #17252A;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+p {
+  color: #DEF2F1;
+  text-align: left;
+  font-size: 30px;
+  padding-left: 30%;
+  padding-right: 30%;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.2;
+}
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #DEF2F1;
+  text-align: left;
+  font-size: 40px;
+  padding-left: 30%;
+  padding-right: 30%;
+  list-style-type: circle;
+  line-height: 1.2;
+}
+.top {
+  background-color: #3aafa9;
+  top: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.intro {
+  color: #17252A;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+div.headings {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+  color: #3aafa9;
+  font-size: 35px;
+  font-style: italic;
+  padding-left: 30%;
+  padding-right: 30%;
+  font-weight: 200;
+}
+div.seven {
+  display: block;
+  background-color: #3aafa9;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-align: right;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #DEF2F1;
+  font-size: 45px;
+  margin-right: 55%;
+  padding-right: 3%;
+  padding-top: .2;
+}
+span.list {
+  color: #17252A;
+  font-family: 'Fjalla One', sans-serif;
 }
