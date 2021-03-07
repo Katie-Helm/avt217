@@ -1,0 +1,22 @@
+body {
+  background-color: #2B2525;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #EDE5D5;
+    font-size: 80px;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+    text-align: left;
+    color: #EDE5D5;
+    font-size: 80px;
+}
+a {
+  color: #A170CF
+}
+
+a:hover {
+  color: #EDE5D5;
+}
