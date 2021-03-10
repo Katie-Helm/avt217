@@ -1,0 +1,11 @@
+body {
+  background-color: #42444a;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #EDE5D5;
+    font-size: 40px;
+}
