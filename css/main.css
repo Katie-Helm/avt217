@@ -1,4 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
 body {
   background-color: #F3CEF5;
-  font-size: 25px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+header {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: blue;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: yellow;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  background-color: red;
+  float: left;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+h1 {
+  font-size: 4rem;
+  text-align: left;
+  font-family: 'Spirax', cursive;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  font-family: 'Spirax', cursive;
+  font-weight: 700;
 }
