@@ -1,3 +1,4 @@
+/*****general styles*****/
 * {
   box-sizing: border-box;
 }
@@ -9,6 +10,8 @@ body {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
+
+/*****layout styles*****/
 header {
   width: 75vw;
   margin: 25px auto;
@@ -23,10 +26,7 @@ main {
   float: left;
 }
 
-ul {
-  text-align: left;
-  list-style-type: none;
-}
+/*****type styles*****/
 h1 {
   font-size: 4rem;
   text-align: left;
@@ -38,4 +38,38 @@ h2 {
   text-align: left;
   font-family: 'Spirax', cursive;
   font-weight: 700;
+}
+a:hover, a:active {
+  color: gold;
+}
+/*****list styles*****/
+li {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-weight: 550;
+}
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*****media queries*****/
+@media screen and (max-width: 900px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width: 90vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
 }
