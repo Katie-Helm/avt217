@@ -32,24 +32,24 @@ h1 {
   text-align: left;
   font-family: 'Spirax', cursive;
   font-weight: 700;
-  color: #402d0c;
+  color: #543908;
 }
 h2 {
   font-size: 3rem;
   text-align: left;
   font-family: 'Spirax', cursive;
   font-weight: 700;
-  color: #402d0c;
-}
-a:hover, a:active {
-  color: black;
-  font-size: 1.75rem;
-}
-a:visited {
-  color: #7a510a;
+  color: #543908;
 }
 a:link {
-  color: #523502;
+  color: #7a510a;
+}
+a:visited {
+  color: #bd7f13;
+}
+a:hover, a:active {
+  color: #edb021;
+  font-size: 1.75rem;
 }
 
 /*****list styles*****/
@@ -59,7 +59,7 @@ li {
   margin-bottom: 10px;
   text-align: left;
   letter-spacing: 1px;
-  font-weight: 550;
+  font-weight: 600;
 }
  ul {
   list-style-type: none;
