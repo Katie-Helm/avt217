@@ -6,7 +6,7 @@ html {
   font-size: 16px;
 }
 body {
-  background-color: #F3CEF5;
+  background-color: #bcd982;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
@@ -28,24 +28,30 @@ main {
 
 /*****type styles*****/
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   text-align: left;
   font-family: 'Spirax', cursive;
   font-weight: 700;
+  color: #1a1101;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: left;
   font-family: 'Spirax', cursive;
   font-weight: 700;
+  color: #1a1101;
 }
 a:hover, a:active {
-  color: gold;
+  color: black;
+  font-size: 1.75rem;
+}
+a:visited {
+  color: #523502;
 }
 /*****list styles*****/
 li {
   font-size: 1.25rem;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
   margin-bottom: 10px;
   text-align: left;
   letter-spacing: 1px;
@@ -71,5 +77,14 @@ li {
   }
   h1 {
     font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  li {
+    font-size: 1.2rem;
+  }
+  a:hover, a:active {
+    font-size: 1.35rem;
   }
 }
