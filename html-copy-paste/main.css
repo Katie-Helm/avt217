@@ -1,0 +1,57 @@
+
+#p1 {
+  background-image: linear-gradient(to bottom right, #26B9C8, #0457a0, #0457a0);
+  background-color: #0457a0;
+}
+
+#pat {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: #FF818B;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #FF818B;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+  float: left;
+}
+#pat:before {
+  border-bottom: 80px solid #FF818B;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+#pat:after {
+  position: absolute;
+  display: block;
+  color:#FF818B;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #FF818B;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+
+.spongebob {
+  width: 150px;
+  height: 150px;
+  bottom: 70px;
+  background-color: #FFF56C;
+  border-width: 25px;
+  border-color: #0b032d;
+  margin: 10px;
+  float: left;
+}

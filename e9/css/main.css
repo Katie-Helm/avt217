@@ -1,62 +1,37 @@
 /*********** 1 ***********/
-
 #p1 {
-  background-image: linear-gradient(to bottom right, #26B9C8, #0457a0, #0457a0);
-  background-color: #0457a0;
+  background-color: black;
 }
-
-#pat {
-  margin: 50px 0;
-  position: relative;
-  display: block;
-  color: #FF818B;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid #FF818B;
-  border-left: 100px solid transparent;
-  transform: rotate(35deg);
+.thing1 {
+  width: 200px;
+  height: 80px;
+  transform: skew(20deg);
+  background: #ffb3e8;
   float: left;
-}
-#pat:before {
-  border-bottom: 80px solid #FF818B;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -45px;
-  left: -65px;
-  display: block;
-  content: '';
-  transform: rotate(-35deg);
-}
-#pat:after {
-  position: absolute;
-  display: block;
-  color:#FF818B;
-  top: 3px;
-  left: -105px;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid #FF818B;
-  border-left: 100px solid transparent;
-  transform: rotate(-70deg);
-  content: '';
+  margin-left: 25px;
+  margin-right: -80px;
+  opacity: 80%;
+  border: 20px;
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
+
 }
 
-.spongebob {
-  width: 150px;
-  height: 150px;
-  bottom: 70px;
-  background-color: #FFF56C;
-  border-width: 25px;
-  border-color: #0b032d;
-  margin: 10px;
+.thing2 {
+  width: 200px;
+  height: 80px;
+  transform: skew(20deg);
+  background: #59e3d2;
   float: left;
+  margin-left: 25px;
+  margin-right: -80px;
+  opacity: 80%;
+  border: 20px;
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
 }
-
 /*********** 2 ***********/
 #p2 {
   background-image: linear-gradient(to bottom right, #26B9C8, #0457a0, #0457a0);
@@ -161,62 +136,36 @@
 }
 
 /*********** 4 ***********/
+
+}
 .four1 {
-  width: 10px;
-  height: 10px;
-  margin: -5px;
-  border-style: groove;
-  border-radius: 50%;
-  border-width: 20px;
+  width: 0px;
+  height: 0px;
+  border-bottom: 100px solid #05668d;
+  border-left: 100px solid transparent;
   float: left;
-  background-color: #ff786b;
-  border-color: #ffeae8;
 }
 .four2 {
-  width: 10px;
-  height: 10px;
-  margin: -5px;
-  border-style: groove;
-  border-radius: 40%;
-  border-width: 20px;
+  width: 0px;
+  height: 0px;
+  border-bottom: 100px solid #028090;
+  border-right: 100px solid transparent;
   float: left;
-  background-color: #ffeae8;
-  border-color: #ffc9c4;
 }
 .four3 {
-  width: 10px;
-  height: 10px;
-  margin: -5px;
-  border-style: groove;
-  border-radius: 30%;
-  border-width: 20px;
+  width: 0px;
+  height: 0px;
+  border-top: 100px solid #00a896;
+  border-left: 100px solid transparent;
   float: left;
-  background-color: #ffc9c4;
-  border-color: #ffaba3;
 }
 .four4 {
-  width: 10px;
-  height: 10px;
-  margin: -5px;
-  border-style: groove;
-  border-radius: 20%;
-  border-width: 20px;
+  width: 0px;
+  height: 0px;
+  border-top: 100px solid #02c39a;
+  border-right: 100px solid transparent;
   float: left;
-  background-color: #ffaba3;
-  border-color: #ff948a;
 }
-.four5 {
-  width: 10px;
-  height: 10px;
-  margin: -5px;
-  border-style: groove;
-  border-radius: 10%;
-  border-width: 20px;
-  float: left;
-  background-color: #ff948a;
-  border-color: #ff786b;
-}
-
 /*********** 5 ***********/
 
 .five1 {
