@@ -1,43 +1,5 @@
-#p2 {
-  background-image: linear-gradient(to bottom right, #26B9C8, #0457a0, #0457a0);
-  background-color: #0457a0;
-}
-.bubbleA {
+.square1 {
   width: 80px;
   height: 80px;
-  border: 4px;
-  border-style: double;
-  border-color: #a7dbcc;
-  border-width: thin;
-  background-image: linear-gradient(to bottom right, #e34bd4, #5736a3, #5ee675);
-  border-radius: 50%;
-  opacity: 85%;
-  float:left;
-  margin: -15px;
-  }
-.bubbleB {
-  width: 120px;
-  height: 120px;
-  border: 4px;
-  border-style: double;
-  border-color: #a7dbcc;
-  border-width: thin;
-  background-image: linear-gradient(to bottom right, #e34bd4, #5736a3, #5ee675);
-  border-radius: 50%;
-  opacity: 85%;
-  float:left;
-  margin: 0px;
-}
-.bubbleC {
-  width: 60px;
-  height: 60px;
-  border: 4px;
-  border-style: double;
-  border-color: #a7dbcc;
-  border-width: thin;
-  background-image: linear-gradient(to bottom right, #e34bd4, #5736a3, #5ee675);
-  border-radius: 50%;
-  opacity: 85%;
-  float:left;
-  margin: -60px;
+  background: red;
 }
